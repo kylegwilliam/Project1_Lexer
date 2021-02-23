@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project1_Lexer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project1_Lexer">
+				<Option output="/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Project1_Lexer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1_Lexer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project1_Lexer/fast">
+				<Option output="/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Project1_Lexer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1_Lexer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Automaton.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Automaton.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/DatalogProgram.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/DatalogProgram.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Lexer.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Lexer.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/MatcherAutomaton.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/MatcherAutomaton.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Parser.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Parser.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Predicate.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Predicate.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Rule.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Rule.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Token.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/Token.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/main.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
