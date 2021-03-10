@@ -413,6 +413,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Lexer.dir/build.make CMakeFiles/Project1_Lexer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+newExpression.o: newExpression.cpp.o
+
+.PHONY : newExpression.o
+
+# target to build an object file
+newExpression.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Lexer.dir/build.make CMakeFiles/Project1_Lexer.dir/newExpression.cpp.o
+.PHONY : newExpression.cpp.o
+
+newExpression.i: newExpression.cpp.i
+
+.PHONY : newExpression.i
+
+# target to preprocess a source file
+newExpression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Lexer.dir/build.make CMakeFiles/Project1_Lexer.dir/newExpression.cpp.i
+.PHONY : newExpression.cpp.i
+
+newExpression.s: newExpression.cpp.s
+
+.PHONY : newExpression.s
+
+# target to generate assembly for a file
+newExpression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Lexer.dir/build.make CMakeFiles/Project1_Lexer.dir/newExpression.cpp.s
+.PHONY : newExpression.cpp.s
+
+simpleParameter.o: simpleParameter.cpp.o
+
+.PHONY : simpleParameter.o
+
+# target to build an object file
+simpleParameter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Lexer.dir/build.make CMakeFiles/Project1_Lexer.dir/simpleParameter.cpp.o
+.PHONY : simpleParameter.cpp.o
+
+simpleParameter.i: simpleParameter.cpp.i
+
+.PHONY : simpleParameter.i
+
+# target to preprocess a source file
+simpleParameter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Lexer.dir/build.make CMakeFiles/Project1_Lexer.dir/simpleParameter.cpp.i
+.PHONY : simpleParameter.cpp.i
+
+simpleParameter.s: simpleParameter.cpp.s
+
+.PHONY : simpleParameter.s
+
+# target to generate assembly for a file
+simpleParameter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Lexer.dir/build.make CMakeFiles/Project1_Lexer.dir/simpleParameter.cpp.s
+.PHONY : simpleParameter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -452,6 +506,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... newExpression.o"
+	@echo "... newExpression.i"
+	@echo "... newExpression.s"
+	@echo "... simpleParameter.o"
+	@echo "... simpleParameter.i"
+	@echo "... simpleParameter.s"
 .PHONY : help
 
 

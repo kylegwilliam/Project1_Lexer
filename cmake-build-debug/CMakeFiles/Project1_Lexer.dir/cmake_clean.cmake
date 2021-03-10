@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Project1_Lexer.dir/Rule.cpp.o"
   "CMakeFiles/Project1_Lexer.dir/Token.cpp.o"
   "CMakeFiles/Project1_Lexer.dir/main.cpp.o"
+  "CMakeFiles/Project1_Lexer.dir/newExpression.cpp.o"
+  "CMakeFiles/Project1_Lexer.dir/simpleParameter.cpp.o"
   "Project1_Lexer"
   "Project1_Lexer.pdb"
 )

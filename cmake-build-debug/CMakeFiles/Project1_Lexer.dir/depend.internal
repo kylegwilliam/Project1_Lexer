@@ -6,11 +6,15 @@ CMakeFiles/Project1_Lexer.dir/Automaton.cpp.o
  /Users/kylegwilliam/Desktop/Project1-Lexer/Automaton.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Token.h
 CMakeFiles/Project1_Lexer.dir/DatalogProgram.cpp.o
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Automaton.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/DatalogProgram.cpp
  /Users/kylegwilliam/Desktop/Project1-Lexer/DatalogProgram.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Lexer.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/MatcherAutomaton.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Predicate.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Rule.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Token.h
 CMakeFiles/Project1_Lexer.dir/Lexer.cpp.o
  /Users/kylegwilliam/Desktop/Project1-Lexer/Automaton.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Lexer.cpp
@@ -26,14 +30,25 @@ CMakeFiles/Project1_Lexer.dir/Parameter.cpp.o
  /Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.cpp
  /Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.h
 CMakeFiles/Project1_Lexer.dir/Parser.cpp.o
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Automaton.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/DatalogProgram.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Lexer.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/MatcherAutomaton.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Parser.cpp
  /Users/kylegwilliam/Desktop/Project1-Lexer/Parser.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Predicate.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Rule.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Token.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/newExpression.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/simpleParameter.h
 CMakeFiles/Project1_Lexer.dir/Predicate.cpp.o
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Predicate.cpp
  /Users/kylegwilliam/Desktop/Project1-Lexer/Predicate.h
 CMakeFiles/Project1_Lexer.dir/Rule.cpp.o
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Predicate.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Rule.cpp
  /Users/kylegwilliam/Desktop/Project1-Lexer/Rule.h
 CMakeFiles/Project1_Lexer.dir/Token.cpp.o
@@ -41,9 +56,22 @@ CMakeFiles/Project1_Lexer.dir/Token.cpp.o
  /Users/kylegwilliam/Desktop/Project1-Lexer/Token.h
 CMakeFiles/Project1_Lexer.dir/main.cpp.o
  /Users/kylegwilliam/Desktop/Project1-Lexer/Automaton.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/DatalogProgram.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Lexer.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/MatcherAutomaton.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Parser.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Predicate.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Rule.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/Token.h
  /Users/kylegwilliam/Desktop/Project1-Lexer/main.cpp
+ /Users/kylegwilliam/Desktop/Project1-Lexer/newExpression.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/simpleParameter.h
+CMakeFiles/Project1_Lexer.dir/newExpression.cpp.o
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/newExpression.cpp
+ /Users/kylegwilliam/Desktop/Project1-Lexer/newExpression.h
+CMakeFiles/Project1_Lexer.dir/simpleParameter.cpp.o
+ /Users/kylegwilliam/Desktop/Project1-Lexer/Parameter.h
+ /Users/kylegwilliam/Desktop/Project1-Lexer/simpleParameter.cpp
+ /Users/kylegwilliam/Desktop/Project1-Lexer/simpleParameter.h

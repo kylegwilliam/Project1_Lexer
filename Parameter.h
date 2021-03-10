@@ -9,14 +9,19 @@ using namespace std;
 
 class Parameter {
 private:
-
+    //string varName;
 
 public:
-    Parameter();
 
-    Parameter(string outputID);
+    //Parameter();
 
-    string toString();
+    //Parameter(string outputID);
+
+    virtual void setParam(Parameter* outputParam) = 0;
+
+    virtual void setOpp(string outputOpp) = 0;
+
+    virtual string toString() = 0;
 };
 
 

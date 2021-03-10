@@ -11,6 +11,10 @@
 #include <iostream>
 #include "Predicate.h"
 #include <iostream>
+#include "Rule.h"
+#include "DatalogProgram.h"
+#include "newExpression.h"
+#include "simpleParameter.h"
 
 using namespace std;
 
@@ -21,12 +25,19 @@ private:
 
     int locationToken = 0;
     vector<Token*> tokens;
+    DatalogProgram finalOutput;
+public:
+    DatalogProgram getFinalOutput();
+
+private:
+
 
     //constructor or setter
     vector<Token*> newTokens;
 
 
 public:
+
 
     Parser(vector<Token*> tokens);
 
@@ -53,7 +64,7 @@ public:
 
 //
 
-    string scheme();
+    void scheme();
 
     void fact();
 
@@ -63,27 +74,27 @@ public:
 
 //
 
-    void headPredicate();
+    Predicate* headPredicate();
 
-    void predicate();
-
-//
-
-    void predicateList();
-
-    void parameterList();
-
-    void stringList();
-
-    void idList();
+    void predicate(Predicate& newPred);
 
 //
 
-    void parameter();
+    void predicateList(vector <Predicate*>& newVectPred);
 
-    void expression();
+    void parameterList(vector <Parameter*>& queryOrRuleList);
 
-    void operator1();
+    void stringList(vector <Parameter*>& groupsOfString);
+
+    void idList(vector<Parameter*>& predicateList);
+
+//
+
+    Parameter* parameter(vector <Parameter*>& queryOrRuleList);
+
+    Parameter* expression(vector <Parameter*>& queryOrRuleList);
+
+    string operator1(vector <Parameter*>& queryOrRuleList);
 
 
 

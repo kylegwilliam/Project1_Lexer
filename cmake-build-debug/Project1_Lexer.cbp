@@ -137,6 +137,18 @@
 		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/main.cpp">
 			<Option target="Project1_Lexer"/>
 		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/newExpression.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/newExpression.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/simpleParameter.cpp">
+			<Option target="Project1_Lexer"/>
+		</Unit>
+		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/simpleParameter.h">
+			<Option target="Project1_Lexer"/>
+		</Unit>
 		<Unit filename="/Users/kylegwilliam/Desktop/Project1-Lexer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

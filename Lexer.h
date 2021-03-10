@@ -73,7 +73,7 @@ public:
         }
 
     void RemoveCommentToken() {
-        for (unsigned int i; i < tokens.size(); i++) {
+        for (unsigned int i = 0; i < tokens.size(); i++) {
             if (tokens.at(i)->type == COMMENT) {
                 tokens.erase(tokens.begin()+i);
                 i--;

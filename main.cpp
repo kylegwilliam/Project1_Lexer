@@ -5,6 +5,7 @@
 #include "MatcherAutomaton.h"
 //#include "Automaton.h"
 #include <fstream>
+#include "DatalogProgram.h"
 
 
 //Should verify commandline arguments, instantiate instance of the Lexer class, and pass the input to Lexer
@@ -61,6 +62,9 @@ int main(int argc, char* argv[]) {
     Parser parse(newTokens);
 
     parse.Parse();
+
+    parse.getFinalOutput().toString();
+
 
 
     ///try

@@ -5,11 +5,15 @@ CMakeFiles/Project1_Lexer.dir/Automaton.cpp.o: ../Automaton.cpp
 CMakeFiles/Project1_Lexer.dir/Automaton.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Lexer.dir/Automaton.cpp.o: ../Token.h
 
+CMakeFiles/Project1_Lexer.dir/DatalogProgram.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Lexer.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
 CMakeFiles/Project1_Lexer.dir/DatalogProgram.cpp.o: ../DatalogProgram.h
+CMakeFiles/Project1_Lexer.dir/DatalogProgram.cpp.o: ../Lexer.h
+CMakeFiles/Project1_Lexer.dir/DatalogProgram.cpp.o: ../MatcherAutomaton.h
 CMakeFiles/Project1_Lexer.dir/DatalogProgram.cpp.o: ../Parameter.h
 CMakeFiles/Project1_Lexer.dir/DatalogProgram.cpp.o: ../Predicate.h
 CMakeFiles/Project1_Lexer.dir/DatalogProgram.cpp.o: ../Rule.h
+CMakeFiles/Project1_Lexer.dir/DatalogProgram.cpp.o: ../Token.h
 
 CMakeFiles/Project1_Lexer.dir/Lexer.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Lexer.dir/Lexer.cpp.o: ../Lexer.cpp
@@ -25,14 +29,25 @@ CMakeFiles/Project1_Lexer.dir/MatcherAutomaton.cpp.o: ../Token.h
 CMakeFiles/Project1_Lexer.dir/Parameter.cpp.o: ../Parameter.cpp
 CMakeFiles/Project1_Lexer.dir/Parameter.cpp.o: ../Parameter.h
 
+CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../Automaton.h
+CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../DatalogProgram.h
+CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../Lexer.h
+CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../MatcherAutomaton.h
+CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../Parameter.h
 CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../Parser.cpp
 CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../Parser.h
 CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../Predicate.h
+CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../Rule.h
 CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../Token.h
+CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../newExpression.h
+CMakeFiles/Project1_Lexer.dir/Parser.cpp.o: ../simpleParameter.h
 
+CMakeFiles/Project1_Lexer.dir/Predicate.cpp.o: ../Parameter.h
 CMakeFiles/Project1_Lexer.dir/Predicate.cpp.o: ../Predicate.cpp
 CMakeFiles/Project1_Lexer.dir/Predicate.cpp.o: ../Predicate.h
 
+CMakeFiles/Project1_Lexer.dir/Rule.cpp.o: ../Parameter.h
+CMakeFiles/Project1_Lexer.dir/Rule.cpp.o: ../Predicate.h
 CMakeFiles/Project1_Lexer.dir/Rule.cpp.o: ../Rule.cpp
 CMakeFiles/Project1_Lexer.dir/Rule.cpp.o: ../Rule.h
 
@@ -40,10 +55,23 @@ CMakeFiles/Project1_Lexer.dir/Token.cpp.o: ../Token.cpp
 CMakeFiles/Project1_Lexer.dir/Token.cpp.o: ../Token.h
 
 CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../Automaton.h
+CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../DatalogProgram.h
 CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../Lexer.h
 CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../MatcherAutomaton.h
+CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../Parameter.h
 CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../Parser.h
 CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../Predicate.h
+CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../Rule.h
 CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../Token.h
 CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../main.cpp
+CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../newExpression.h
+CMakeFiles/Project1_Lexer.dir/main.cpp.o: ../simpleParameter.h
+
+CMakeFiles/Project1_Lexer.dir/newExpression.cpp.o: ../Parameter.h
+CMakeFiles/Project1_Lexer.dir/newExpression.cpp.o: ../newExpression.cpp
+CMakeFiles/Project1_Lexer.dir/newExpression.cpp.o: ../newExpression.h
+
+CMakeFiles/Project1_Lexer.dir/simpleParameter.cpp.o: ../Parameter.h
+CMakeFiles/Project1_Lexer.dir/simpleParameter.cpp.o: ../simpleParameter.cpp
+CMakeFiles/Project1_Lexer.dir/simpleParameter.cpp.o: ../simpleParameter.h
 

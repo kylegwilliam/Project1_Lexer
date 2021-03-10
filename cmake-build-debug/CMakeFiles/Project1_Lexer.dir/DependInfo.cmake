@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/kylegwilliam/Desktop/Project1-Lexer/Rule.cpp" "/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/CMakeFiles/Project1_Lexer.dir/Rule.cpp.o"
   "/Users/kylegwilliam/Desktop/Project1-Lexer/Token.cpp" "/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/CMakeFiles/Project1_Lexer.dir/Token.cpp.o"
   "/Users/kylegwilliam/Desktop/Project1-Lexer/main.cpp" "/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/CMakeFiles/Project1_Lexer.dir/main.cpp.o"
+  "/Users/kylegwilliam/Desktop/Project1-Lexer/newExpression.cpp" "/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/CMakeFiles/Project1_Lexer.dir/newExpression.cpp.o"
+  "/Users/kylegwilliam/Desktop/Project1-Lexer/simpleParameter.cpp" "/Users/kylegwilliam/Desktop/Project1-Lexer/cmake-build-debug/CMakeFiles/Project1_Lexer.dir/simpleParameter.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -8,23 +8,78 @@ using namespace std;
 
 
 string Predicate::toString() {
-    cout << predicateID;
-    cout << "(";
+
+    string output;
+
+
+    output += predicateID;
+    output += "(";
     for (unsigned int i = 0; i < predicateListOfParameters.size(); i++) {
-        cout << predicateListOfParameters.at(i);
-        cout << ", ";
+        output += predicateListOfParameters.at(i)->toString();
+        if (i < predicateListOfParameters.size() - 1) {
+            output +=",";
+        }
+        else {
+            output += "";
+        }
     }
-    cout << ")" << endl;
+
+    output +=")";
+    return output;
 
 }
 
-string Predicate::setPredicateID(string location) {
+void Predicate::setPredicateID(string location) {
     predicateID = location;
 
 }
 
-string Predicate::setPredicateListOfParameters(vector<Parameter*> newString) {
+void Predicate::setPredicateListOfParameters(vector<Parameter*> newString) {
 
     predicateListOfParameters = newString;
 
+}
+
+string Predicate::toStringFacts() {
+
+    string newString;
+
+    newString += predicateID;
+    newString += "(";
+    for (unsigned int i = 0; i < predicateListOfParameters.size(); i++) {
+        newString += predicateListOfParameters.at(i)->toString();
+        if (i < predicateListOfParameters.size() - 1) {
+            newString += ",";
+        } else {
+            newString += "";
+        }
+    }
+    newString += ")";
+    newString += ".";
+    return newString;
+
+}
+
+string Predicate::toStringQuery() {
+
+    string newString;
+
+    newString += predicateID;
+    newString += "(";
+    for (unsigned int i = 0; i < predicateListOfParameters.size(); i++) {
+        newString += predicateListOfParameters.at(i)->toString();
+        if (i < predicateListOfParameters.size() - 1) {
+            newString += ",";
+        } else {
+            newString += "";
+        }
+    }
+    newString += ")";
+    newString += "?";
+    return newString;
+
+}
+
+const vector<Parameter *> &Predicate::getPredicateListOfParameters() const {
+    return predicateListOfParameters;
 }

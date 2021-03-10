@@ -23,12 +23,15 @@ public:
 
     string toString();
 
-    string setPredicateID(string location);
+    void setPredicateID(string location);
 
-    string setPredicateListOfParameters(vector<Parameter*> newString);
+    void setPredicateListOfParameters(vector<Parameter*> newString);
 
+    string toStringFacts();
 
+    string toStringQuery();
 
+    const vector<Parameter *> &getPredicateListOfParameters() const;
 };
 
 
